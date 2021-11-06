@@ -1,0 +1,36 @@
+<div class="product_create pt-4 pb-4" style="background-color: #F0F0F0;" >
+    <div class="container p-4" style="background-color: white; border-radius: 15px; box-shadow: 2px 3px 5px #ccc;">
+        <h3>CREATE PRODUCT</h3>
+        <form method="POST" action="/products/store">
+            <div class="mb-3">
+                <label for="image" class="form-label">Image</label>
+                <input type="text" class="form-control" id="image" name="image">
+            </div>
+            <div class="mb-3">
+                <label for="link" class="form-label">Link</label>
+                <input type="text" class="form-control" id="link" name="link">
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+            <div class="mb-3">
+                <label for="origin" class="form-label">Origin</label>
+                <input type="text" class="form-control" id="origin" name="origin">
+            </div>
+            <div class="mb-3">
+                <label for="price" class="form-label">Price</label>
+                <input type="text" class="form-control" id="price" name="price">
+            </div>
+            <div class="mb-3">
+                <label for="supplier" class="form-label">Supplier</label>
+                <input type="text" class="form-control" id="supplier" name="supplier">
+            </div>
+            <div class="mb-3">
+                <label for="trademark" class="form-label">Trademark</label>
+                <input type="text" class="form-control" id="trademark" name="trademark">
+            </div>
+            <button type="submit" class="btn btn-primary">Add Product</button>
+        </form>
+    </div>
+</div>
